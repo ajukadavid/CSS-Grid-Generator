@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <script src="https://cdn.tailwindcss.com"></script>
+ 
+ <title>Javascript Grid generator</title>
+</head>
+<body>
+  <div class="grid place-items-center h-screen">
+    <div class="input-container grid">
+    <input type="number" min="5" max="12" placeholder="number of grids" id="num" class="p-6 m-7 ml-24"/>
+    <div>
+      <input class="" type="button"value="submit" id="button" onclick="send()" />
+      <button id="clear">Clear Grid</button>
+    </div>    
+
+   </div>
+   
+   <div id="container"></div>
+  </div>
+ 
+</body>
+<script src="script.js"></script>
+</html>

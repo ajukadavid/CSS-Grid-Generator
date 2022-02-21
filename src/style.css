@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+#container{
+    width: 100px;
+    height: 100px;
+    background: rgb(43, 43, 122);
+    display: grid;
+    padding: 15px;
+  box-shadow: 2px 1px 5px gray;
+}
+
+.box{
+    border: 1px solid rgb(43, 43, 122);
+    box-sizing: border-box;
+  
+}
+
+.input-container {
+ padding: 15px
+}
+#num {
+   border: 1px solid rgb(43, 43, 122);
+  width: 200px;
+  height: 25px;
+}
+#button, #clear {
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(43, 43, 122);
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+}
