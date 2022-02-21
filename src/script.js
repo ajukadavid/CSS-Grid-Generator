@@ -15,7 +15,7 @@ function createBoxes(numBox){
 function send() {
       let value =  parseInt(num.value)
       if(value > 12) {
-        alert('Value too high!')
+        alert('Value too high!, ')
         container.innerHTML = ''
        
       } else {
