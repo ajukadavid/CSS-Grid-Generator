@@ -34,3 +34,20 @@
 input[type=number]::-webkit-inner-spin-button {
   opacity: 1;
 }
+#main {
+  background-color: #43144a;
+}
+.title-text {
+  font-size: 50px;
+  font-weight: 600;
+  font-style: normal;
+  color: #ffc700;
+}
+.title-text-main, .title-text-1 {
+  font-family: inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #cbcbff;
+}
