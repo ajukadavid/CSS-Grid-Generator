@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="style.css">
- <script src="https://cdn.tailwindcss.com"></script>
- 
- <title>Javascript/CSS Grid generator</title>
-</head>
-<body>
-  <div class="grid place-items-center h-screen" id="main">
-      <div>
-        <img class="mt-25px m-10" src="/assets/download.png" />
-      </div>
-      <div class="title-text">
-        Greedy Hunter
-      </div>
-      
-      <div class="title-text-main">The aim is to eat all the food in record time</div>
-      <div class="title-text-1">
-        Configure your game grid below 👇🏼
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-      </div>
-      <div class="input-container grid">
-    <input type="number" min="5" max="12" placeholder="number of grids" id="num" class="p-6 mb-7 ml-24"/>
-    <div class="lg:p-4">
-      <input class="" type="button"value="submit" id="button" onclick="send()" />
-      <button id="clear">Clear Grid</button>
-    </div>    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
-   </div>
-   
-   <div id="container"></div>
-  </div>
- 
-</body>
-<script src="script.js"></script>
+    <title>Javascript/CSS Grid generator</title>
+  </head>
+  <body class="grid place-items-center h-screen w-full" id="main">
+    <div>
+      <div class="grid">
+        <div class="mt-17">
+          <img src="/assets/download.png" />
+        </div>
+        <div class="title-text">Greedy Hunter</div>
+        <div class="p-10">
+          <div class="title-text-main">
+            The aim is to eat all the food in record time
+          </div>
+          <div class="title-text-1">Configure your game grid below 👇🏼</div>
+        </div>
+      </div>
+
+      <div class="input-container flex">
+        <label for="num" class="label">Game grid</label>
+        <input type="number" min="5" max="12" id="num" />
+      </div>
+
+      <input
+        class=""
+        type="button"
+        value="Start Game"
+        id="button"
+        onclick="send()"
+      />
+
+      <div id="container"></div>
+    </div>
+  </body>
+  <script src="script.js"></script>
 </html>

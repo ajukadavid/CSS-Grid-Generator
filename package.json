@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ithiel883/CSS-Grid-Generator.git"
+  },
+  "author": "Ajuka David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ithiel883/CSS-Grid-Generator/issues"
+  },
+  "homepage": "https://github.com/ithiel883/CSS-Grid-Generator#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
